@@ -23,7 +23,7 @@
     "editor.wordHighlightStrongBackground": "#abb2bf26",
     "editorCursor.background": "#ffffffc9",
     "editorCursor.foreground": "#b6bcc4",
-    "editorError.foreground": "#E15A60",
+    "editorError.foreground": "#ff1c1c",
     "editorGroup.border": "#343a45",
     "editorGroupHeader.tabsBackground": "#1f242b",
     "editorGroupHeader.tabsBorder": "#232830",
@@ -68,9 +68,9 @@
     "panel.border": "#252A33",
     "peekViewEditor.matchHighlightBackground": "#29244b",
     "scrollbar.shadow": "#232830",
-    "scrollbarSlider.activeBackground": "#41485595",
-    "scrollbarSlider.hoverBackground": "#41485578",
-    "scrollbarSlider.background": "#41485568",
+    "scrollbarSlider.activeBackground": "#91949a58",
+    "scrollbarSlider.hoverBackground": "#91949a46",
+    "scrollbarSlider.background": "#91949a22",
     "sideBar.background": "#21262D",
     "sideBar.border": "#21262D",
     "sideBar.foreground": "#768796",
@@ -111,7 +111,8 @@
     "titleBar.border": "#1f242b",
     "titleBar.inactiveBackground": "#1f242b",
     "titleBar.inactiveForeground": "#6B717D",
-    "widget.shadow": "#0c0e11"
+    "widget.shadow": "#0c0e11",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff1616"
   },
   "tokenColors": [
     {
@@ -155,7 +156,7 @@
       "scope": "entity.name.type",
       "settings": {
         "foreground": "#8CD8D8",
-        "fontStyle": "underline"
+        // "fontStyle": "underline"
       }
     },
     {
